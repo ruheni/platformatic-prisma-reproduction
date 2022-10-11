@@ -1,0 +1,18 @@
+{
+  "server": {
+    "logger": {
+      "level": "info"
+    },
+    "hostname": "127.0.0.1",
+    "port": "3042"
+  },
+  "core": {
+    "connectionString": "postgres://admin:strongpassword@localhost:5430/platformatic-prisma"
+  },
+  "migrations": {
+    "dir": "./migrations"
+  },
+  "plugin": {
+    "path": "./plugins/posts.js"
+  }
+}

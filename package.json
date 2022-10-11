@@ -1,0 +1,22 @@
+{
+  "name": "platformatic-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "platformatic db start",
+    "dev": "npm start",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "4.4.0",
+    "fastify-plugin": "4.2.1",
+    "platformatic": "0.3.0"
+  },
+  "devDependencies": {
+    "prisma": "4.4.0"
+  }
+}
